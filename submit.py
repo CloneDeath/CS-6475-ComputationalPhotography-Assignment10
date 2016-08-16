@@ -5,6 +5,25 @@ import argparse
 import json
 from bonnie.submission import Submission
 
+LATE_POLICY = \
+"""Late Policy: I have read the late policy for CS6475. I understand that only my 
+last commit before the late submission deadline will be accepted and that late 
+penalties apply if any part of the assignment is submitted late."""
+
+HONOR_PLEDGE = "Honor Pledge: I have neither given nor received aid on this assignment."
+
+def require_pledges():
+  print(LATE_POLICY)
+  ans = raw_input("Please type 'yes' to agree and continue>")
+  if ans != "yes":
+    raise RuntimeError("Late policy not accepted.")
+
+  print(HONOR_PLEDGE)
+  ans = raw_input("Please type 'yes' to agree and continue>")
+  if ans != "yes":
+    raise RuntimeError("Honor pledge not accepted")
+
+
 def main():
   parser = argparse.ArgumentParser(description='Submits code to the Udacity site.')
   parser.add_argument('--provider', choices = ['gt', 'udacity'], default = 'gt')
@@ -12,6 +31,8 @@ def main():
   parser.add_argument('--writeup', action='store_true', default=False)
 
   args = parser.parse_args()
+
+  require_pledges()
 
   quiz = 'assignment10'
   filenames = ["assignment10.pdf"]
