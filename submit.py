@@ -33,11 +33,10 @@ def main():
   parser = argparse.ArgumentParser(description='Submits code to the Udacity site.')
   parser.add_argument('--provider', choices = ['gt', 'udacity'], default = 'gt')
   parser.add_argument('--environment', choices = ['local', 'development', 'staging', 'production'], default = 'production')
-  parser.add_argument('--writeup', action='store_true', default=False)
 
   args = parser.parse_args()
 
-  quiz = 'assignment10'
+  quiz = 'writeup10'
   filenames = ["assignment10.pdf"]
 
   if not os.path.isfile(filenames[0]):
