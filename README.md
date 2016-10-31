@@ -1,2 +1,5 @@
 # Assignment 10: 
-Please refer to [this Google Document](https://docs.google.com/document/d/1x9YwfQPr0jxRElTnw5LAKVp9Ak58U2k2WmrpRDYC690/edit?usp=sharing) for instructions.
+
+This assignment explores methods for reconstructing space, shape, and geometry from multiple images of a scene.
+
+Detailed [instructions](https://drive.google.com/open?id=1MO5Sg9Puq0e89JGsgmDB_FXI4j7Jyieye8p-7KJAF_g) and the [report template](https://drive.google.com/open?id=1cb2fTyOkaIS5MVrV7udvhDznF5ImYxU4gtHeRpIE650) are available on Google drive.
