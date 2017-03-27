@@ -1,0 +1,13 @@
+{
+    "v2 samsung sm-g928v 2048 1152 perspective 0.7777": {
+        "focal_prior": 0.7777777777777778, 
+        "width": 2048, 
+        "k1": 0.0, 
+        "k2": 0.0, 
+        "k1_prior": 0.0, 
+        "k2_prior": 0.0, 
+        "projection_type": "perspective", 
+        "focal": 0.7777777777777778, 
+        "height": 1152
+    }
+}

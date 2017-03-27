@@ -1,0 +1,16 @@
+{
+    "width": 2048, 
+    "camera": "v2 samsung sm-g928v 2048 1152 perspective 0.7777", 
+    "projection_type": "perspective", 
+    "orientation": 1, 
+    "focal_ratio": 0.7777777777777778, 
+    "make": "samsung", 
+    "gps": {
+        "latitude": 33.88027777777778, 
+        "altitude": 303.0, 
+        "longitude": -84.46805555555555
+    }, 
+    "model": "SM-G928V", 
+    "capture_time": 1490553214.0, 
+    "height": 1152
+}

@@ -1,0 +1,13 @@
+{
+    "v2 nikon corporation nikon d60 640 428 perspective 0.75": {
+        "focal_prior": 0.75, 
+        "width": 640, 
+        "k1": 0.0, 
+        "k2": 0.0, 
+        "k1_prior": 0.0, 
+        "k2_prior": 0.0, 
+        "projection_type": "perspective", 
+        "focal": 0.75, 
+        "height": 428
+    }
+}
